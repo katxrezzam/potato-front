@@ -1,0 +1,44 @@
+.predictionContainer{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    width: 1100px;
+    border-radius: 12px;
+    background: #BBC7A4;
+    box-shadow: 2px 7px 10px 0 rgba(0,0,0,.1), 2px 11px 11px 0 rgba(0,0,0,.1), 2px 6px 8px 0 rgba(0,0,0,.08), 2px 5px 8px 0 rgba(252,22,0,.05);
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.imageLoadedContainer{
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+}
+.imageLoadedContainer img{
+    width: 100%;
+    height: auto;
+}
+.buttonPredict{
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background: #D56F3E;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 2px 7px 10px 0 rgba(0,0,0,.1), 2px 11px 11px 0 rgba(0,0,0,.1), 2px 6px 8px 0 rgba(0,0,0,.08), 2px 5px 8px 0 rgba(252,22,0,.05);
+    transition: all .2s;
+    cursor: pointer;
+}
+.buttonPredict:hover{
+    transform: scale(1.05);
+}
